@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bills.css">
+    <title>Bills</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-content">
+            <span>Items Ordered: <span id="item-count">0</span></span>
+        </div>
+    </div>
+    
+    <div class="billing-section">
+        <h2 class="head">Order Summary</h2>
+        <div class="food-item">
+            <span class="food-name">Pizza</span>
+            <div class="quantity-control">
+                <button class="decrement">-1</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button class="increment">+1</button>
+            </div>
+            <span class="price">Rs 10.00</span>
+        </div>
+    
+        <div class="food-item">
+            <span class="food-name">Burger</span>
+            <div class="quantity-control">
+                <button class="decrement">-1</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button class="increment">+1</button>
+            </div>
+            <span class="price">Rs 5.00</span>
+        </div>
+        <div class="food-item">
+            <span class="food-name">Noodles</span>
+            <div class="quantity-control">
+                <button class="decrement">-1</button>
+                <input type="number" class="quantity" value="1" min="1">
+                <button class="increment">+1</button>
+            </div>
+            <span class="price">Rs 5.00</span>
+            
+        </div>
+        
+        <div class="total">
+            <span>Total:</span>
+            <span class="total-price">Rs 15.00</span>
+        </div>
+    
+        <button class="checkout-btn">Checkout</button>
+    </div>
+    
+    
+</body>
+</html>
