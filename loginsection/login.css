@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(/loginsection/loginimages/mainbg3.jpg) no-repeat;
+    background: url("./loginimages/mainbg3.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }

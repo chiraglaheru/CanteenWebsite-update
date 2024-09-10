@@ -32,7 +32,7 @@
             </div>
             <button type="submit" class="btn">Login</button>
             <div class="login-link">
-                <p>Already have an account? <a href="/loginsection/login.html">Login</a></p>
+                <p>Already have an account? <a href="login.php">Login</a></p>
             </div>
         </form>
     </div>
